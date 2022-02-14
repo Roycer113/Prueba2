@@ -1,0 +1,149 @@
+body{
+    font-family: georgia,times,serif;
+    color: chocolate;
+    font-size: 1.3rem;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+/* header */
+.Container{
+    width: 95%;
+    max-width: 890px;
+    margin: 0 auto;
+
+}
+.Header{
+    background: #333;
+    color: white;
+    padding: 2rem;
+}
+
+    .Header a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .Header img{
+        width: 250px;
+        
+
+    } 
+
+.Logo-Nav-Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    letter-spacing: 5px;
+    font-size: 1.3em;
+    
+}
+
+.Navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .Navigation ul li{
+        display:  inline-block;
+    }
+    .Navigation ul li a{
+        display:  block;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s linear;
+        border-radius: 25px;
+    }
+
+    .Navigation ul li a:hover{
+        background: #535352 ;
+    }
+
+
+
+.Login-Cont{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+    
+}
+
+/* fin header */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}_
+
+div#General{
+    margin: auto;
+    margin-top: 10px;
+    width: 95%;
+    max-width: 890px;
+    height: 95%;
+    max-height: 890px;
+    background-color: red;
+}
+
+div#Body{
+    
+    width: 300px;
+    height: 500px;
+    background-color: brown;
+
+}
+
+
+div#Novedades{
+
+    width: 640px;
+    height: 200px;
+    background-color: bisque;
+
+}
+
+
+
+footer .contenedor {
+    display: flex;
+    background-color: #333;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-bottom: 25px;
+}
+footer .contenedor h1 {
+    color: white;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    position: sticky;
+    
+}
+
+.copy {
+    font-size: 20px;
+}
+
+.sociales {
+    width: 100%;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 28px;
+}
+
+.sociales a {
+    color: white;
+    text-decoration: none;
+}
